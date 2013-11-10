@@ -29,30 +29,32 @@ int main(void)
 
 	while (1)
 	{
-		printf("……connecting……");
 		if(USART_GetFlagStatus(USART1 , USART_IT_RXNE) == SET)
 		{
 			if(USART_ReceiveData(USART1)==0x00)
 			{
 				GPIO_SetBits(GPIOA, GPIO_Pin_4 | GPIO_Pin_5 | GPIO_Pin_6 | GPIO_Pin_7);	
 				LED1(ON);
+				printf("LED1 ON \n");
 			}
 			else if(USART_ReceiveData(USART1)==0x01)
 			{
 				GPIO_SetBits(GPIOA, GPIO_Pin_4 | GPIO_Pin_5 | GPIO_Pin_6 | GPIO_Pin_7);	
 				LED2(ON);
+				printf("LED2 ON \n");
 			}
 			else if(USART_ReceiveData(USART1)==0x02)
 			{
 				GPIO_SetBits(GPIOA, GPIO_Pin_4 | GPIO_Pin_5 | GPIO_Pin_6 | GPIO_Pin_7);	
 				LED3(ON);
+				printf("LED3 ON \n");
 			}
 
-			/* LED4的点亮还有点问题 */
 			else if(USART_ReceiveData(USART1)==0x03)
 			{
 				GPIO_SetBits(GPIOA, GPIO_Pin_4 | GPIO_Pin_5 | GPIO_Pin_6 | GPIO_Pin_7);	
 				LED4(ON);
+				printf("LED4 ON \n");
 			}
 		}
 	}

@@ -1,6 +1,6 @@
 Dependencies for Project 'STM32-DEMO', Target 'STM32-DEMO': (DO NOT MODIFY !)
 F (..\CMSIS\startup\startup_stm32f10x_md.s)(0x52774F9C)(--device DARMSTM --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1" -I "C:\Keil\ARM\INC\ST\STM32F10x" --list "..\Listing\startup_stm32f10x_md.lst" --xref -o "..\Output\startup_stm32f10x_md.o")
-F (.\main.c)(0x527DB999)(-c --device DARMSTM -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CMSIS -I..\FWlib\inc -I..\FWlib\src -I "C:\Keil\ARM\INC\ST\STM32F10x" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -o "..\Output\main.o" --omf_browse "..\Output\main.crf" --depend "..\Output\main.d")
+F (.\main.c)(0x527EE572)(-c --device DARMSTM -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\CMSIS -I..\FWlib\inc -I..\FWlib\src -I "C:\Keil\ARM\INC\ST\STM32F10x" -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -o "..\Output\main.o" --omf_browse "..\Output\main.crf" --depend "..\Output\main.d")
 I (..\CMSIS\stm32f10x.h)(0x52774F9C)
 I (..\CMSIS\core_cm3.h)(0x52774F9C)
 I (C:\Keil\ARM\RV31\INC\stdint.h)(0x4A02846A)

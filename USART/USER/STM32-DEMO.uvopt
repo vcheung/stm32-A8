@@ -195,10 +195,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>18</ColumnNumber>
+      <ColumnNumber>16</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>28</TopLine>
-      <CurrentLine>33</CurrentLine>
+      <TopLine>25</TopLine>
+      <CurrentLine>25</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\main.c</PathWithFileName>
       <FilenameWithoutPath>main.c</FilenameWithoutPath>
@@ -239,8 +239,8 @@
       <Focus>0</Focus>
       <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>18</TopLine>
-      <CurrentLine>26</CurrentLine>
+      <TopLine>2</TopLine>
+      <CurrentLine>2</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\led.c</PathWithFileName>
       <FilenameWithoutPath>led.c</FilenameWithoutPath>
@@ -286,10 +286,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>0</ColumnNumber>
+      <ColumnNumber>36</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
+      <TopLine>603</TopLine>
+      <CurrentLine>609</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\FWlib\src\stm32f10x_usart.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_usart.c</FilenameWithoutPath>
@@ -359,8 +359,8 @@
 
   <AlienFiles>
     <PathWithFilename>F:\GitHub\stm32-A8\USART\USER\led.h</PathWithFilename>
-    <TopLine>13</TopLine>
-    <CurrentLine>27</CurrentLine>
+    <TopLine>7</TopLine>
+    <CurrentLine>24</CurrentLine>
     <Constant>0</Constant>
     <WindowPosition>
       <length>0</length>
@@ -2030,9 +2030,9 @@
       <Documents>
         <Doc>
           <Name>.\main.c</Name>
-          <ColumnNumber>18</ColumnNumber>
-          <TopLine>28</TopLine>
-          <CurrentLine>33</CurrentLine>
+          <ColumnNumber>16</ColumnNumber>
+          <TopLine>25</TopLine>
+          <CurrentLine>25</CurrentLine>
         </Doc>
         <Doc>
           <Name>..\USER\stm32f10x_conf.h</Name>
@@ -2054,21 +2054,27 @@
         </Doc>
         <Doc>
           <Name>led.h</Name>
-          <ColumnNumber>36</ColumnNumber>
-          <TopLine>13</TopLine>
-          <CurrentLine>27</CurrentLine>
+          <ColumnNumber>8</ColumnNumber>
+          <TopLine>7</TopLine>
+          <CurrentLine>24</CurrentLine>
         </Doc>
         <Doc>
           <Name>.\led.c</Name>
           <ColumnNumber>0</ColumnNumber>
-          <TopLine>18</TopLine>
-          <CurrentLine>26</CurrentLine>
+          <TopLine>2</TopLine>
+          <CurrentLine>2</CurrentLine>
         </Doc>
         <Doc>
           <Name>..\FWlib\inc\stm32f10x_gpio.h</Name>
           <ColumnNumber>8</ColumnNumber>
           <TopLine>131</TopLine>
           <CurrentLine>134</CurrentLine>
+        </Doc>
+        <Doc>
+          <Name>..\FWlib\src\stm32f10x_usart.c</Name>
+          <ColumnNumber>36</ColumnNumber>
+          <TopLine>603</TopLine>
+          <CurrentLine>609</CurrentLine>
         </Doc>
       </Documents>
     </MDIGroup>
